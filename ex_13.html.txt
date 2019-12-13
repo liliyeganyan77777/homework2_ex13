@@ -1,0 +1,30 @@
+
+var num = 5
+max = (Math.max(num))
+min = (Math.min(num))
+var result = max - min 
+console.log(result)
+
+
+var num = 152;
+var a = (num%10)
+var b =(num%100 - a)/10
+var c = (num - num%100)/100
+max = Math.max(a,b,c)
+min = Math.min(a,b,c)
+var result = max - min
+console.log(result)
+
+
+var num = 4593653
+var a = (num%10)
+var b = (num%100 - a)/10
+var c = (num%1000 -num%100)/100
+var d = (num%10000 - num%1000)/1000
+var e =(num%100000 - num%10000)/10000
+var f = (num%1000000 - num%100000)/100000
+var g = (num%10000000 - num%1000000)/1000000
+max = Math.max(a,b,c,d,e,f,g,);
+min = Math.min(a,b,c,d,e,f,g)
+var result = max - min
+console.log(result)
